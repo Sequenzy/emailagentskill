@@ -1,0 +1,13 @@
+{
+  "skills": [
+    {
+      "name": "emailagentskill",
+      "title": "Email Agent Skill",
+      "description": "Email Agent Skill: agentic email planning, tool handoffs, safe execution, and review loops.",
+      "install": "npx skills add emailagentskill",
+      "skill_url": "https://emailagentskill.com/skills/emailagentskill/SKILL.md",
+      "markdown_url": "https://emailagentskill.com/skill/index.md",
+      "homepage_url": "https://emailagentskill.com/"
+    }
+  ]
+}

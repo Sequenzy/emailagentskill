@@ -1,0 +1,22 @@
+# Email Agent Skill
+
+Email Agent Skill is a skill package for agentic email planning, tool handoffs, safe execution, and review loops.
+
+Install:
+
+```bash
+npx skills add emailagentskill
+```
+
+## Primary agent resources
+
+- Markdown index: https://emailagentskill.com/index.md
+- Skill page: https://emailagentskill.com/skill/index.md
+- Raw SKILL.md: https://emailagentskill.com/skills/emailagentskill/SKILL.md
+- Skill discovery JSON: https://emailagentskill.com/.well-known/skills/index.json
+
+## Articles
+
+- How to Build an Agent-Ready Email Agent Strategy: https://emailagentskill.com/articles/agent-ready-email-strategy/index.md
+- The Practical Email Agent Operations Playbook for AI Agents: https://emailagentskill.com/articles/email-operations-playbook/index.md
+- Email Agent Skill Audit Checklist: From Prompt to Production: https://emailagentskill.com/articles/email-skill-audit-checklist/index.md
