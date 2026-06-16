@@ -17,7 +17,6 @@
   "skill": {
     "name": "emailagentskill",
     "path": "skills/emailagentskill",
-    "install": "npx skills add emailagentskill",
-    "githubInstall": "npx skills add Sequenzy/emailagentskill --skill emailagentskill"
+    "install": "npx skills add emailagentskill"
   }
 }

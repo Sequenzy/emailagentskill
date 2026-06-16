@@ -6,7 +6,6 @@ Install shortcut:
 
 ```bash
 npx skills add emailagentskill
-npx skills add Sequenzy/emailagentskill --skill emailagentskill
 ```
 
 Raw skill folder: `skills/emailagentskill`
