@@ -18,6 +18,6 @@
     "name": "emailagentskill",
     "path": "skills/emailagentskill",
     "install": "npx skills add emailagentskill",
-    "githubInstall": "npx skills add polnikale/emailagentskill --skill emailagentskill"
+    "githubInstall": "npx skills add Sequenzy/emailagentskill --skill emailagentskill"
   }
 }
