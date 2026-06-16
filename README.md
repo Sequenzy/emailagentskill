@@ -5,8 +5,8 @@ Static landing page and Codex skill for emailagentskill.com.
 Install shortcut:
 
 ```bash
-npx skills add email-agent
-npx skills add polnikale/emailagentskill --skill email-agent
+npx skills add emailagentskill
+npx skills add polnikale/emailagentskill --skill emailagentskill
 ```
 
-Raw skill folder: `skills/email-agent`
+Raw skill folder: `skills/emailagentskill`

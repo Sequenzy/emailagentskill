@@ -1,5 +1,5 @@
 {
-  "name": "email-agent",
+  "name": "emailagentskill",
   "version": "0.1.0",
   "private": false,
   "description": "Email Agent Skill: agentic email planning, tool handoffs, safe execution, and review loops.",
@@ -12,12 +12,12 @@
     "codex-skill",
     "email",
     "agents",
-    "email-agent"
+    "emailagentskill"
   ],
   "skill": {
-    "name": "email-agent",
-    "path": "skills/email-agent",
-    "install": "npx skills add email-agent",
-    "githubInstall": "npx skills add polnikale/emailagentskill --skill email-agent"
+    "name": "emailagentskill",
+    "path": "skills/emailagentskill",
+    "install": "npx skills add emailagentskill",
+    "githubInstall": "npx skills add polnikale/emailagentskill --skill emailagentskill"
   }
 }

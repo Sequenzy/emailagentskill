@@ -1,5 +1,5 @@
 ---
-name: email-agent
+name: emailagentskill
 description: Use when Codex or another AI agent needs to plan, review, implement, audit, or improve email work focused on agentic email planning, tool handoffs, safe execution, and review loops. Triggers include requests about Agent task routing, Approval gates, Multi-tool email workflows, email briefs, email QA, subscriber journeys, production handoffs, approval gates, and agent-safe email operations.
 ---
 
