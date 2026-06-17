@@ -7,11 +7,30 @@ description: "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another 
 
 Design the agent workflow before asking any tool to act. Keep authority, evidence, and approval explicit at every handoff.
 
-## When To Use
+## Scope
 
-Use this skill for agentic email planning, tool handoffs, safe execution, review loops, and multi-agent coordination. It is designed for agent workflows where email work must be specific, reviewable, and safe across planning, drafting, implementation, QA, or operational handoff.
+agentic email planning, tool handoffs, safe execution, review loops, and multi-agent coordination.
 
-## Operating Workflow
+## Request Signals
+
+agent task routing, approval gates, multi-tool email workflows, delegation plans, operator handoffs, and agent-safe execution policies.
+
+## Guardrails
+
+1. Primary lens: agentic email planning, tool handoffs, safe execution, review loops, and multi-agent coordination.
+2. Common request signals: agent task routing, approval gates, multi-tool email workflows, delegation plans, operator handoffs, and agent-safe execution policies.
+3. Default posture: Design the agent workflow before asking any tool to act. Keep authority, evidence, and approval explicit at every handoff.
+4. Useful output family: agent routing plans, approval matrices, tool handoff specs, review loops, execution checklists, and audit-friendly status reports.
+5. Production boundary: separate recommendation from execution.
+6. Evidence boundary: say which source material supports the recommendation.
+7. Review boundary: identify the human owner for risky changes.
+8. Data boundary: do not assume missing fields, consent, or suppression state.
+9. Platform boundary: describe provider-specific steps in operational language.
+10. Measurement boundary: define what success or recovery will look like.
+11. Handoff boundary: make the next step clear to another agent.
+12. Rollback boundary: name the safest way to undo live-system changes.
+
+## Execution Path
 
 1. Classify the agent's role: researcher, strategist, copywriter, implementer, QA reviewer, analyst, or operator.
 2. Define what the agent may read, draft, change, and execute, and what requires human approval.
@@ -20,7 +39,7 @@ Use this skill for agentic email planning, tool handoffs, safe execution, review
 5. Preserve an audit trail of assumptions, source files, decisions, and rejected options.
 6. Return the next action in a way another agent can continue without redoing the investigation.
 
-## Review Criteria
+## Reviewer Notes
 
 - The agent is not granted production authority by implication.
 - Tool calls are justified by the task, not convenience.
