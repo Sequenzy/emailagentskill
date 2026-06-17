@@ -1,28 +1,33 @@
 ---
 name: emailagentskill
-description: Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or improve email work focused on agentic email planning, tool handoffs, safe execution, and review loops. Triggers include requests about Agent task routing, Approval gates, Multi-tool email workflows, email briefs, email QA, subscriber journeys, production handoffs, approval gates, and agent-safe email operations.
+description: "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or improve email work focused on agentic email planning, tool handoffs, safe execution, review loops, and multi-agent coordination. Triggers include requests about agent task routing, approval gates, multi-tool email workflows, delegation plans, operator handoffs, and agent-safe execution policies."
 ---
 
 # Email Agent Skill
 
-Use this skill to turn email work into an agent-safe operating routine. Start by identifying whether the task is analysis, drafting, implementation planning, QA, or production execution. Keep production execution behind explicit human approval.
+Design the agent workflow before asking any tool to act. Keep authority, evidence, and approval explicit at every handoff.
 
-## Workflow
+## When To Use
 
-1. Clarify the email surface: campaign, newsletter, automation, transactional message, template, deliverability issue, or reporting task.
-2. Ask for source material that changes the answer: audience, lifecycle stage, offer, sending platform, segment rules, screenshots or exports, recent metrics, brand voice, compliance constraints, and existing copy.
-3. Produce structured output with these headings when relevant: assumptions, missing inputs, recommendation, draft or implementation notes, QA checks, risk level, and approval needed.
-4. Do not send, import contacts, alter suppression rules, change DNS, or modify production automations without explicit confirmation.
-5. If the task is complex or high risk, read references/operating-checklist.md before finalizing.
+Use this skill for agentic email planning, tool handoffs, safe execution, review loops, and multi-agent coordination. It is designed for agent workflows where email work must be specific, reviewable, and safe across planning, drafting, implementation, QA, or operational handoff.
+
+## Operating Workflow
+
+1. Classify the agent's role: researcher, strategist, copywriter, implementer, QA reviewer, analyst, or operator.
+2. Define what the agent may read, draft, change, and execute, and what requires human approval.
+3. Break the request into tool-safe handoffs with inputs, outputs, acceptance criteria, and risk level.
+4. Use checkpoints after high-variance work such as segmentation, legal claims, production edits, or performance interpretation.
+5. Preserve an audit trail of assumptions, source files, decisions, and rejected options.
+6. Return the next action in a way another agent can continue without redoing the investigation.
 
 ## Review Criteria
 
-- The recommendation matches agentic email planning, tool handoffs, safe execution, and review loops.
-- The audience and permission basis are clear.
-- The message promise, segment, timing, and call to action are consistent.
-- Deliverability, unsubscribe, complaint, and compliance risks are surfaced.
-- Any live-system action is separated from analysis or drafting.
+- The agent is not granted production authority by implication.
+- Tool calls are justified by the task, not convenience.
+- Human review happens before irreversible actions.
+- The workflow separates strategy, content, implementation, QA, and execution.
+- Final output includes enough context for Codex, Hermes, OpenClaw, Claude Code, Cowork, or another agent to proceed.
 
 ## Output Pattern
 
-Return concise, executable artifacts: briefs, checklists, diffs, campaign outlines, sequence maps, QA tables, or post-send retrospectives. Prefer concrete next actions over generic best practices.
+Return agent routing plans, approval matrices, tool handoff specs, review loops, execution checklists, and audit-friendly status reports. Keep recommendations concrete. Separate analysis from live-system actions, and require explicit approval before sending email, importing contacts, changing DNS, altering suppression rules, or editing production automations.

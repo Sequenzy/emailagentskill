@@ -1,30 +1,27 @@
 # Email Agent Skill Operating Checklist
 
-Use this checklist when the request involves agentic email planning, tool handoffs, safe execution, and review loops or could affect a live email system.
+Use this checklist when the request involves agentic email planning, tool handoffs, safe execution, review loops, and multi-agent coordination or could affect a live email system.
 
 ## Intake
 
-- Audience and segment definition
-- Lifecycle moment or campaign purpose
-- Sending platform and source of truth
-- Existing template, copy, or automation screenshot
-- Recent delivery, engagement, unsubscribe, and complaint ranges
-- Legal or compliance constraints
-- Required approval owner
+- Agent platform, available tools, and permission boundaries
+- Email task goal, source materials, and production systems involved
+- Human approvers for copy, data, deliverability, legal, and sending
+- Expected output format and whether another agent will continue the work
+- Risk tolerance for drafts, code edits, imports, automations, and live sends
 
 ## QA
 
-- Confirm the subject line matches the body promise.
-- Confirm links, personalization fields, fallbacks, and unsubscribe paths.
-- Confirm exclusions and suppression logic.
-- Confirm mobile readability and plain-language CTA.
-- Confirm the sender identity and reply handling.
-- Confirm metric baseline before recommending changes.
+- Confirm every tool handoff has a defined input and expected output.
+- Confirm production actions require explicit human approval.
+- Confirm assumptions are written down before recommendations.
+- Confirm the workflow includes QA before execution.
+- Confirm the final handoff names unresolved risks and owners.
 
 ## Risk Gates
 
-Low risk: summaries, drafts, analysis, naming suggestions.
+Low risk: research, summaries, drafts, critiques, naming, and non-production recommendations.
 
-Medium risk: template edits, segment recommendations, automation diagrams, A/B test plans.
+Medium risk: template edits, segment recommendations, automation diagrams, experiments, imports prepared for review, and code changes that need deployment.
 
-High risk: sending, contact imports, DNS/authentication changes, suppression edits, production automation changes.
+High risk: live sends, contact imports, suppression edits, DNS/authentication changes, production automation changes, provider migrations, and destructive cleanup. Stop and request explicit approval before high-risk actions.
